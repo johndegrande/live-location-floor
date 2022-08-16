@@ -1,0 +1,80 @@
+@charset "utf-8";
+/* CSS Document */
+
+html, body {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif /*{global-font-family}*/;
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: 14px;
+}
+.ui-selectmenu-button span.ui-selectmenu-text {
+	padding-top: 0px;
+	padding-bottom: 0px;
+	line-height: 30px;
+}
+.toolbar-help {
+	padding-top: 10px;
+}
+.ui-selectmenu-button {
+	top: 3px;	
+}
+button, input, label {
+	top: -9px;
+}
+select {
+    width: 180px;
+}
+#toolbar {
+	border-top: 0px;
+	border-left: 0px;
+	border-right: 0px;
+}
+.ui-menu-item {
+	font-weight: normal;
+}
+.gameBox {
+    width: 70px;
+    height: 75px;
+    border: 1px;
+    padding-bottom: 20px;
+    font-size: 11px;
+    float: left;
+    margin: 0 0 15px 5px;
+    text-align: center;
+}
+.greenies {
+	color: #00FF00;
+}
+
+.xstooltip {
+    visibility: hidden; 
+    position: absolute; 
+    top: 0;  
+    left: 0; 
+    z-index: 2; 
+	color: #000000;
+    font: normal 8pt sans-serif; 
+    padding: 3px; 
+    border: solid 1px;
+	text-align: left;
+	z-index: 9999;
+}
+.sort_divider {
+	float: left;
+	width: 100%;
+	padding-left: 10px;
+}
+.ui-selectmenu-open {
+	z-index: 9999;
+}
+.mapstyle {
+	color: #000;	
+}
+
+.superhelps { height: 5px; border: 0; }
+.superhelps div { width: 33%; height: 5px; display: inline-block; background: none; }
+.superhelps .needsnc.true { background-color: red; }
+.superhelps .needswap.true { background-color: yellow; }
+.superhelps .needshelp.true { background-color: #FF99CC; }

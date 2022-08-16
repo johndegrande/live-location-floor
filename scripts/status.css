@@ -1,0 +1,95 @@
+@charset "utf-8";
+/* CSS Document */
+.web a {
+	text-decoration: none;
+	color: inherit;
+}
+
+.black {
+	background: #000000;
+	color: #FFF;
+}
+
+.black_greentext {
+	background: #000000;
+	color: #0F0;	
+}
+
+.blue {
+	background: #0000FF;
+	color: #FFF;	
+}
+
+.blue_dark {
+	background: #000066;
+	color: #FFF;
+}
+
+.gold {
+	background: #FFDE00;
+	color: #000;
+}
+
+.gray {
+	background: #666666;
+	color: #FFF;
+}
+
+.green {
+	background: #00FF00;
+	color: #000;
+}
+
+.green_sea {
+	background: #80FF80;
+	color: #000;
+}
+
+.orange {
+	background: #FF9900;
+	color: #000;
+}
+
+.pink {
+	background: #FF99CC;
+	color: #000;
+}
+
+.purple {
+	background: #C000C0;
+	color: #FFF;
+}
+
+.red {
+	background: #FF0000;
+	color: #FFF;
+}
+
+.white {
+	background: #FFFFFF;
+	color: #000;
+}
+
+.yellow_dark {
+	background: #C0C000;
+	color: #000;
+}
+
+.wf_mobile {
+	text-shadow: 0 /*{b-bup-shadow-x}*/ 0px /*{b-bup-shadow-y}*/ 0 /*{b-bup-shadow-radius}*/;
+}
+
+.wf_mobile .ui-btn,
+.wf_mobile .ui-btn:visited {
+	background-color: transparent; /*{b-bup-background-color}*/;
+	border-color: #FFF; /*{b-bup-border}*/;
+	color: inherit;
+	text-shadow: 0 /*{b-bup-shadow-x}*/ 0px /*{b-bup-shadow-y}*/ 0 /*{b-bup-shadow-radius}*/;
+}
+
+.wf_mobile .ui-btn:hover {
+	background-color: #FFF;/*{b-bhover-background-color}*/;
+	border-color: #FFF;/*{b-bhover-border}*/;
+	color: #000; /*{b-bhover-color}*/;
+	text-shadow: 0 /*{b-bhover-shadow-x}*/ 0px /*{b-bhover-shadow-y}*/ 0 /*{b-bhover-shadow-radius}*/;
+}
